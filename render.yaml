@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: almas-dimas-backend
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGO_URI
+        sync: false
+      - key: CORS_ORIGIN
+        value: https://your-frontend.onrender.com
+      - key: BACKEND_URL
+        value: https://your-backend.onrender.com
+
