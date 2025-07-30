@@ -34,10 +34,10 @@
     "stripe": "^17.5.0"
   },
   "devDependencies": {
-    "jest": "^30.0.0",                // Use the latest compatible version
-    "supertest": "^7.5.3",            // For HTTP API testing
+    "jest": "^30.0.0",
+    "supertest": "^7.5.3",
     "nodemon": "^3.1.9",
-    "mongodb-memory-server": "^9.0.0" // For isolated test DB (optional but recommended)
+    "mongodb-memory-server": "^9.0.0"
   },
   "jest": {
     "testEnvironment": "node"
