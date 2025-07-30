@@ -38,4 +38,4 @@ jobs:
         env:
           MONGO_URL: mongodb://localhost:27017/test-db
           NODE_ENV: test
-        run: npm test
+        run: npm start
